@@ -9,8 +9,7 @@ return undefined
 }
 
 bannaList = "bananas".split("")
-console.log(linearSearch('q', bannaList))
-console.log(linearSearch('b', bannaList))
+
 
 
 
@@ -30,7 +29,6 @@ if(answer.length === 0){
 }
 
 
-console.log(globalLinearSearch('a', bannaList))
-console.log(globalLinearSearch('q', bannaList))
+
 
 module.exports = { linearSearch, globalLinearSearch };
